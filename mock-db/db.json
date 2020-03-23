@@ -1,0 +1,28 @@
+{
+    "BookCategory":[
+        {"CategoryID": "CAT001", "CategoryName": "Romance", "images": [{"url": "http://icon-library.com/images/romance-icon/romance-icon-24.jpg"}] },
+        {"CategoryID": "CAT002", "CategoryName": "Comedy", "images": [{"url": "https://cdn0.iconfinder.com/data/icons/movie-theatre-1/32/comedy-512.png"}] },
+        {"CategoryID": "CAT003", "CategoryName": "Thriller", "images": [{"url": "https://image.flaticon.com/icons/png/512/1710/premium/1710259.png"}]}
+    ],
+    "Book":[
+        {"BookID": "BO001", "CategoryID": "CAT001", "AuthorID": "AU01", "BookName": "Book01", "ContentID": "CON001", "cover": [{"url": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1548885919-51nEvoCNk4L.jpg"}]},
+        {"BookID": "BO002", "CategoryID": "CAT001", "AuthorID": "AU03", "BookName": "Book02", "ContentID": "CON002", "cover": [{"url": "https://upload.wikimedia.org/wikipedia/en/a/a9/The_Fault_in_Our_Stars.jpg"}]},
+        {"BookID": "BO003", "CategoryID": "CAT002", "AuthorID": "AU02", "BookName": "Book03", "ContentID": "CON003", "cover": [{"url": "https://qph.fs.quoracdn.net/main-qimg-a846988667a174fe614ee923361e8965"}]},
+        {"BookID": "BO004", "CategoryID": "CAT003", "AuthorID": "AU01", "BookName": "Book04", "ContentID": "CON004", "cover": [{"url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1524596540l/36124936._SY475_.jpg"}]},
+        {"BookID": "BO005", "CategoryID": "CAT003", "AuthorID": "AU02", "BookName": "Book05", "ContentID": "CON005", "cover": [{"url": "https://images-na.ssl-images-amazon.com/images/I/51NAxXSEgrL.jpg"}]},
+        {"BookID": "BO006", "CategoryID": "CAT003", "AuthorID": "AU03", "BookName": "Book06", "ContentID": "CON006", "cover": [{"url": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/thriller-books-3-1532093863.jpg"}]}
+    ],
+    "Author":[
+        {"AuthorID": "AU01", "AuthorName": "Name Of Author 1"},
+        {"AuthorID": "AU02", "AuthorName": "Name Of Author 2"},
+        {"AuthorID": "AU03", "AuthorName": "Name Of Author 3"}
+    ],
+    "Content": [
+        {"ContentID": "CON001", "Content": "Book's Content has ID Content: CON001"},
+        {"ContentID": "CON002", "Content": "Book's Content has ID Content: CON002"},
+        {"ContentID": "CON003", "Content": "Book's Content has ID Content: CON003"},
+        {"ContentID": "CON004", "Content": "Book's Content has ID Content: CON004"},
+        {"ContentID": "CON005", "Content": "Book's Content has ID Content: CON005"},
+        {"ContentID": "CON006", "Content": "Book's Content has ID Content: CON006"}
+    ]
+}
